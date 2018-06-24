@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link href="https://cdn-na.infragistics.com/igniteui/2018.1/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet">
+        <link href="https://cdn-na.infragistics.com/igniteui/2018.1/latest/css/structure/infragistics.css" rel="stylesheet">
+    </head>
+    <body>
+        <table id="grid"></table>
+        <button id="open_dialog">open dialog</button>
+        <div id="dialog">
+            <form id="add_new_person" onsubmit="return false">
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="name" placeholder="Enter your name" required>
+                <label for="Age">Age:</label>
+                <input type="number" id="Age" name="age" placeholder="Enter your age" required>
+                <button id="add_person_button">Add</button>
+            </form>
+
+        </div>
+
+        <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+        <script src="https://cdn-na.infragistics.com/igniteui/2018.1/latest/js/infragistics.core.js"></script>
+        <script src="https://cdn-na.infragistics.com/igniteui/2018.1/latest/js/infragistics.lob.js"></script>
+        <script src="js/igniteTable.js"></script>
+    </body>
+</html>
